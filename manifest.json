@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Green Tea",
+    "version": "1.0",
+  
+    "description": "Browser extension to calculate the tailpipe carbon dioxide emissions eliminated by driving an electric vehicle",
+    "icons": {
+      "48": "greentea favicon.png"
+    },
+  
+    "browser_action": {
+      "default_icon": "greentea favicon.png",
+      "default_title": "Green Tea",
+      "default_popup": "index.html"
+    }
+  
+  }

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Tea</title>
+    <link rel="icon" href="greentea favicon.png" type="image/png" sizes="32x32"> 
+  </head>
+  <body style="background-color: lightgreen; font-family: sans-serif; color: black;">
+   <center>
+  <h1>Green Tea</h1>
+   <p>You've driven <input id="mileage" type="number" onchange="document.getElementById('pollutionAmount').innerHTML=parseInt(document.getElementById('mileage').value) * 404 / 1000" aria-label="mileage"> miles in an EV.</p>
+   <p>This has stopped <span id="pollutionAmount">0</span> kilograms of tailpipe carbon dioxide emissions compared to the typical passenger vehicle.</p>
+   <p> Data source: <a href="https://www.epa.gov/greenvehicles/greenhouse-gas-emissions-typical-passenger-vehicle#driving" target="_blank">EPA</a></p>
+    </center>
+  </body>
+</html>
