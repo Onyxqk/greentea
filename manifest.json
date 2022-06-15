@@ -1,5 +1,5 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "Green Tea",
     "version": "1.0",
   
@@ -8,7 +8,7 @@
       "48": "greentea favicon.png"
     },
   
-    "browser_action": {
+    "action": {
       "default_icon": "greentea favicon.png",
       "default_title": "Green Tea",
       "default_popup": "index.html"
